@@ -1,5 +1,5 @@
-.PHONY: klang
-klang:
-	pandoc --standalone --toc --template klang/template.html -f markdown -t html5 -o klang/index.html klang/index.md
+.PHONY: KLANG
+KLANG:
+	pandoc --standalone --toc --template KLANG/template.html -f markdown -t html5 -o KLANG/index.html KLANG/index.md
 
-all: klang
+all: KLANG
