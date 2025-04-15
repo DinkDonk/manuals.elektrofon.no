@@ -1,0 +1,161 @@
+@font-face {
+	font-family: 'Booton';
+	font-style: normal;
+	src: url('/assets/BootonUprightVF.woff2') format('woff2');
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-synthesis: none !important;
+}
+
+html,
+body {
+	display: grid;
+	background-color: white;
+	font-family: 'Booton';
+	font-size: 16px;
+	margin: 1rem;
+}
+
+h1 {
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	margin-bottom: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+main {
+	display: grid;
+	max-width: 60rem;
+	margin: auto;
+	gap: 4rem;
+}
+
+main.root {
+	text-align: center;
+}
+
+main.root figure {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	justify-items: center;
+	gap: 2rem;
+}
+
+main.root figcaption {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+section {
+	display: grid;
+	width: 100%;
+	margin: auto;
+	gap: 2rem;
+}
+
+article {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: stretch;
+	justify-items: stretch;
+	gap: 2rem;
+}
+
+figure {
+	display: grid;
+	gap: 0.5rem;
+	width: 100%;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+}
+
+table {
+	width: 100%;
+	max-width: 50%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	box-sizing: content-box;
+	border-collapse: collapse;
+	padding: 0.5rem;
+}
+
+th,
+td {
+	padding: 0.5rem;
+}
+
+tr {
+	border-bottom: 1px solid black;
+	padding: 1rem;
+}
+
+thead tr {
+	border-bottom: 0.5rem solid black;
+}
+
+ol li {
+	margin: 1rem 0;
+}
+
+.toc ul {
+	list-style: none;
+	padding: 0;
+	font-weight: bold;
+}
+
+.toc ul ul {
+	margin-left: 2rem;
+}
+
+.toc li {
+	margin: 0.5rem 0;
+}
+
+.toc a {
+	text-decoration: none;
+	color: black;
+}
+
+.toc a:hover {
+	text-decoration: underline;
+}
+
+.toc a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.toc a:after {
+	position: absolute;
+	padding-inline-start: .25ch;
+	content: " . . . . . . . . . . . . . . . . . . . "
+		". . . . . . . . . . . . . . . . . . . . . . . "
+		". . . . . . . . . . . . . . . . . . . . . . . "
+		". . . . . . . . . . . . . . . . . . . . . . . "
+		". . . . . . . . . . . . . . . . . . . . . . . "
+		". . . . . . . . . . . . . . . . . . . . . . . "
+		". . . . . . . . . . . . . . . . . . . . . . . ";
+	text-align: right;
+}

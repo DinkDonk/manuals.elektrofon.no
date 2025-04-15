@@ -1,11 +1,155 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-</head>
-<body>
-	<h1>Klang</h1>
-	<p>Manual coming soon!</p>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="date" content=''>
+    <title></title>
+	<link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+  	  <main>
+  	  	  <section class="toc">
+<ul>
+<li><a href="#klang-manual" id="toc-klang-manual">KLANG MANUAL</a>
+<ul>
+<li><a href="#specifications" id="toc-specifications">Specifications</a>
+<ul>
+<li><a href="#electrical" id="toc-electrical">Electrical</a></li>
+<li><a href="#inputs" id="toc-inputs">Inputs</a></li>
+<li><a href="#outputs" id="toc-outputs">Outputs</a></li>
+</ul></li>
+<li><a href="#installation" id="toc-installation">Installation</a></li>
+<li><a href="#firmware-upgrade" id="toc-firmware-upgrade">Firmware
+upgrade</a></li>
+</ul></li>
+</ul>
+		  </section>
+
+		  <section class="body">
+<h1 id="klang-manual">KLANG MANUAL</h1>
+<h2 id="specifications">Specifications</h2>
+<h3 id="electrical">Electrical</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Rail</th>
+<th style="text-align: right;">Typical Current draw</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>12V</strong></td>
+<td style="text-align: right;">~23mA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>-12V</strong></td>
+<td style="text-align: right;">&lt;2mA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>5V</strong></td>
+<td style="text-align: right;">—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="inputs">Inputs</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Input</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: right;">Voltage range</th>
+<th style="text-align: right;">On/off state</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>⇥</strong></td>
+<td style="text-align: left;">Trigger</td>
+<td style="text-align: right;">0V to 10V</td>
+<td style="text-align: right;">&gt;1V / &lt;1V</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>↤↦</strong></td>
+<td style="text-align: left;">CV</td>
+<td style="text-align: right;">-5V to 5V</td>
+<td style="text-align: right;">—</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>⇤</strong></td>
+<td style="text-align: left;">Trigger</td>
+<td style="text-align: right;">0V to 10V</td>
+<td style="text-align: right;">&gt;1V / &lt;1V</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>⟳</strong></td>
+<td style="text-align: left;">CV</td>
+<td style="text-align: right;">-5V to 5V</td>
+<td style="text-align: right;">—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="outputs">Outputs</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Output</th>
+<th style="text-align: right;">Voltage range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>1</strong></td>
+<td style="text-align: right;">-5V to 5V</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2</strong></td>
+<td style="text-align: right;">-5V to 5V</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3</strong></td>
+<td style="text-align: right;">-5V to 5V</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4</strong></td>
+<td style="text-align: right;">-5V to 5V</td>
+</tr>
+</tbody>
+</table>
+<h2 id="installation">Installation</h2>
+<article>
+<ol type="1">
+<li>Connect the module to your case power supply using the provided
+10-pin to 16-pin connector.<br />
+Plug the 10-pin connector into the module <code>POWER</code> socket
+(fig.1) and the 16-pin connector into your case power supply.<br />
+</li>
+<li>Ensure the module is securely mounted in your case.</li>
+<li>Power on your case and play!</li>
+</ol>
+<figure>
+<img src="./assets/klang-back.svg" alt="[fig.1]" />
+<figcaption aria-hidden="true">[fig.1]</figcaption>
+</figure>
+</article>
+<h2 id="firmware-upgrade">Firmware upgrade</h2>
+<p>To update the firmware, follow these steps:</p>
+<ol type="1">
+<li>Download <a
+href="https://github.com/elektrofon/klang-firmware/releases/latest">the
+latest firmware</a>.</li>
+<li>Put the <code>elektrofon-klang.bin</code> file on a microSD
+card.</li>
+<li>Unmount the module from your case.</li>
+<li>Insert the microSD card into the module’s microSD slot.</li>
+<li>Power on the module.</li>
+<li>The module will automatically detect the firmware file and start the
+update process.</li>
+<li>Wait for the update to complete. The module will restart
+automatically.</li>
+<li>Remove the microSD card from the module.</li>
+<li>Re-mount the module in your case.</li>
+</ol>
+		  </section>
+	  </main>
+  </body>
 </html>
