@@ -35,7 +35,7 @@ Plug the 10-pin connector into the module `POWER` socket (fig.1) and the 16-pin 
 2. Ensure the module is securely mounted in your case.
 3. Power on your case and play!
 
-![[fig.1]](assets/klang-back.svg)
+![[fig.1]](/KLANG/assets/klang-back.svg)
 </article>
 
 ## Firmware upgrade
