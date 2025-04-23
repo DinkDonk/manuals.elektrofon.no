@@ -43,11 +43,16 @@ Plug the 10-pin connector into the module `POWER` socket (fig.1) and the 16-pin 
 To update the firmware, follow these steps:
 
 1. Download [the latest firmware](https://github.com/elektrofon/klang-firmware/releases/latest).
-2. Put the `elektrofon-klang.bin` file on a microSD card.
+2. Put the `elektrofon-klang.bin` file on a microSD card. (1)
 2. Unmount the module from your case.
 3. Insert the microSD card into the module's microSD slot.
 4. Power on the module.
 5. The module will automatically detect the firmware file and start the update process.
-6. Wait for the update to complete. The module will restart automatically.
+6. Wait for the update to complete. The module will restart automatically. (2)
 7. Remove the microSD card from the module.
 8. Re-mount the module in your case.
+
+\(1\) The safest way to prepare the microSD card is to format it using [SD Memory Card Formatter](https://www.sdcard.org/downloads/) and copy the firmware file to the root directory of the card.
+
+\(2\) If the module doesn't restart automatically, you can power it off and on again to try again.  
+If it doesn't work the second time, please check the microSD card and the firmware file. The SD Card can be corrupted or the firmware file might be missing. Corrupted SD Cards are more common than you think.
