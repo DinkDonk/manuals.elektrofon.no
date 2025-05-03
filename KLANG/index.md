@@ -1,6 +1,26 @@
 KLANG MANUAL
 ============
 
+## Overview
+
+<article>
+<div class="overview-list">
+1. **Voice encoders**: These encoders controls each color coded voice. Watch the corresponding dial on the display change when you turn the encoder. The little number on each dial denotes the octave of the voice. Turn it 360° to see the octave number go up and down.
+2. **Browse encoder**: Use this encoder to browse the current chords. The numbers at the bottom of the display shows the current chord index and the total chord count currently in memory.
+    - **Click**: Click to toggle pause. When paused, the module does not respond to any triggers.
+    - **Press and hold**: Press and hold to enter tuning mode. This sets all voices to middle C as long as you press the encoder. Release to return to the current chord.
+3. **Minus button**: Removes the current chord.
+4. **Plus button**: Adds a new chord after the current chord. The new chord is a copy of the current chord. The active chord is set to the new chord.
+5. **Traverse trigger input**: This trigger input is used to traverse the chord list. Without any CV input on the **direction** input, a trigger will move to the next chord (+1).
+6. **Direction input**: This input is used to set the traverse direction and amount. A negative voltage will result in backwards traverse, a positive voltage will result in forwards traverse. The **direction** input only sets the direction and amount — It does not perform a traversal. The chord changes only when a trigger is received on the **traverse** input. 0V will result in no movement.
+7. **Transpose input**: This input is used to transpose the current chord. A negative voltage will transpose down, a positive voltage will transpose up. 0V will result in no transposition.
+8. **Reset trigger input**: This trigger input immediately resets the current chord to the first chord in the list. This is useful for quickly resetting the module to a known state. 
+9. **Outputs**: These are the bipolar CV outputs — One for each voice. They are laboratory grade 1V/octave outputs.
+</div>
+
+![fig.1](/KLANG/assets/function-overview.svg)
+</article>
+
 ## Specifications
 
 ### Electrical
@@ -31,11 +51,11 @@ KLANG MANUAL
 
 <article>
 1. Connect the module to your case power supply using the provided 10-pin to 16-pin connector.  
-Plug the 10-pin connector into the module `POWER` socket (fig.1) and the 16-pin connector into your case power supply.  
+Plug the 10-pin connector into the module `POWER` socket (fig.2) and the 16-pin connector into your case power supply.  
 2. Ensure the module is securely mounted in your case.
 3. Power on your case and play!
 
-![[fig.1]](/KLANG/assets/klang-back.svg)
+![[fig.2]](/KLANG/assets/klang-back.svg)
 </article>
 
 ## Firmware upgrade

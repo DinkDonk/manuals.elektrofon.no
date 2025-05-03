@@ -12,6 +12,7 @@
 <ul>
 <li><a href="#klang-manual" id="toc-klang-manual">KLANG MANUAL</a>
 <ul>
+<li><a href="#overview" id="toc-overview">Overview</a></li>
 <li><a href="#specifications" id="toc-specifications">Specifications</a>
 <ul>
 <li><a href="#electrical" id="toc-electrical">Electrical</a></li>
@@ -27,6 +28,54 @@ upgrade</a></li>
 
 		  <section class="body">
 <h1 id="klang-manual">KLANG MANUAL</h1>
+<h2 id="overview">Overview</h2>
+<article>
+<div class="overview-list">
+<ol type="1">
+<li><strong>Voice encoders</strong>: These encoders controls each color
+coded voice. Watch the corresponding dial on the display change when you
+turn the encoder. The little number on each dial denotes the octave of
+the voice. Turn it 360° to see the octave number go up and down.</li>
+<li><strong>Browse encoder</strong>: Use this encoder to browse the
+current chords. The numbers at the bottom of the display shows the
+current chord index and the total chord count currently in memory.
+<ul>
+<li><strong>Click</strong>: Click to toggle pause. When paused, the
+module does not respond to any triggers.</li>
+<li><strong>Press and hold</strong>: Press and hold to enter tuning
+mode. This sets all voices to middle C as long as you press the encoder.
+Release to return to the current chord.</li>
+</ul></li>
+<li><strong>Minus button</strong>: Removes the current chord.</li>
+<li><strong>Plus button</strong>: Adds a new chord after the current
+chord. The new chord is a copy of the current chord. The active chord is
+set to the new chord.</li>
+<li><strong>Traverse trigger input</strong>: This trigger input is used
+to traverse the chord list. Without any CV input on the
+<strong>direction</strong> input, a trigger will move to the next chord
+(+1).</li>
+<li><strong>Direction input</strong>: This input is used to set the
+traverse direction and amount. A negative voltage will result in
+backwards traverse, a positive voltage will result in forwards traverse.
+The <strong>direction</strong> input only sets the direction and amount
+— It does not perform a traversal. The chord changes only when a trigger
+is received on the <strong>traverse</strong> input. 0V will result in no
+movement.</li>
+<li><strong>Transpose input</strong>: This input is used to transpose
+the current chord. A negative voltage will transpose down, a positive
+voltage will transpose up. 0V will result in no transposition.</li>
+<li><strong>Reset trigger input</strong>: This trigger input immediately
+resets the current chord to the first chord in the list. This is useful
+for quickly resetting the module to a known state.</li>
+<li><strong>Outputs</strong>: These are the bipolar CV outputs — One for
+each voice. They are laboratory grade 1V/octave outputs.</li>
+</ol>
+</div>
+<figure>
+<img src="/KLANG/assets/function-overview.svg" alt="fig.1" />
+<figcaption aria-hidden="true">fig.1</figcaption>
+</figure>
+</article>
 <h2 id="specifications">Specifications</h2>
 <h3 id="electrical">Electrical</h3>
 <table>
@@ -121,14 +170,14 @@ upgrade</a></li>
 <li>Connect the module to your case power supply using the provided
 10-pin to 16-pin connector.<br />
 Plug the 10-pin connector into the module <code>POWER</code> socket
-(fig.1) and the 16-pin connector into your case power supply.<br />
+(fig.2) and the 16-pin connector into your case power supply.<br />
 </li>
 <li>Ensure the module is securely mounted in your case.</li>
 <li>Power on your case and play!</li>
 </ol>
 <figure>
-<img src="/KLANG/assets/klang-back.svg" alt="[fig.1]" />
-<figcaption aria-hidden="true">[fig.1]</figcaption>
+<img src="/KLANG/assets/klang-back.svg" alt="[fig.2]" />
+<figcaption aria-hidden="true">[fig.2]</figcaption>
 </figure>
 </article>
 <h2 id="firmware-upgrade">Firmware upgrade</h2>

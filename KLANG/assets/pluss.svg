@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g>
+        <path id="Minus-Button" d="M4.171,55.814C4.171,27.293 27.292,4.171 55.814,4.171C84.336,4.171 107.457,27.293 107.457,55.814C107.457,84.335 84.336,107.458 55.814,107.458C27.292,107.458 4.171,84.336 4.171,55.814Z" style="fill:white;stroke:black;stroke-width:0.83px;"/>
+        <path d="M5.612,55.814C5.612,83.275 28.088,105.536 55.814,105.536C83.54,105.536 106.016,83.275 106.016,55.814C106.016,28.354 83.54,6.093 55.814,6.093C28.088,6.093 5.612,28.354 5.612,55.814" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.83px;"/>
+        <path id="Pluss-Button" d="M53.403,58.225L53.403,68.814L58.224,68.814L58.224,58.225L68.814,58.225L68.814,53.404L58.224,53.404L58.224,42.814L53.403,42.814L53.403,53.404L42.814,53.404L42.814,58.225L53.403,58.225Z"/>
+    </g>
+</svg>

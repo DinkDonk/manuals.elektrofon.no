@@ -80,7 +80,9 @@ article {
 
 figure {
 	display: grid;
-	gap: 0.5rem;
+	justify-items: center;
+	align-content: start;
+	gap: 1rem;
 	width: 100%;
 }
 
@@ -158,4 +160,32 @@ ol li {
 		". . . . . . . . . . . . . . . . . . . . . . . "
 		". . . . . . . . . . . . . . . . . . . . . . . ";
 	text-align: right;
+}
+
+.overview-list ol {
+	list-style: none;
+	counter-reset: overviewList;
+	padding-left: 1rem;
+}
+
+.overview-list ol > li {
+	position: relative;
+	margin: 1.5rem 0;
+	padding-left: 2rem;
+}
+
+.overview-list ol > li:before {
+	position: absolute;
+	counter-increment: overviewList;
+	content: counter(overviewList);
+	width: 2rem;
+	height: 2rem;
+	left: -1rem;
+	top: -0.5rem;
+	font-size: 1rem;
+	line-height: 2rem;
+	text-align: center;
+	color: white;
+	background-color: black;
+	border-radius: 3000px;
 }
