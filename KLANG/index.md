@@ -6,7 +6,8 @@ KLANG MANUAL
 <article>
 <div class="overview-list">
 1. **Voice encoders**: These encoders controls each color coded voice. Watch the corresponding dial on the display change when you turn the encoder. The little number on each dial denotes the octave of the voice. Turn it 360° to see the octave number go up and down.
-2. **Browse encoder**: Use this encoder to browse the current chords. The numbers at the bottom of the display shows the current chord index and the total chord count currently in memory.
+    - **Press and turn**: Hold the encoder down while turning to fine tune the voice.
+2. **Browse encoder**: Use this encoder to browse the current chords. The numbers at the bottom of the display shows the active chord index and the total chord count currently in memory.
     - **Click**: Click to toggle pause. When paused, the module does not respond to any triggers.
     - **Press and hold**: Press and hold to enter tuning mode. This sets all voices to middle C as long as you press the encoder. Release to return to the current chord.
 3. **Minus button**: Removes the current chord.
