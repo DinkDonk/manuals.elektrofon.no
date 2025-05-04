@@ -19,7 +19,7 @@ KLANG MANUAL
 9. **Outputs**: These are the bipolar CV outputs — One for each voice. They are laboratory grade 1V/octave outputs.
 </div>
 
-![fig.1](/KLANG/assets/function-overview.svg)
+![[fig.1]](/KLANG/assets/function-overview.svg)
 </article>
 
 ## Specifications
