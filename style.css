@@ -189,3 +189,28 @@ ol li {
 	background-color: black;
 	border-radius: 3000px;
 }
+
+.symbols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+	align-items: center;
+	justify-items: center;
+}
+
+.symbols figure {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	align-items: center;
+	height: 100%;
+}
+
+.symbols img {
+	width: auto;
+	height: min(2vw, 1rem);
+}
+
+.symbols figure:last-child img {
+	width: auto;
+	height: min(calc(2vw * 3.36), calc(1rem * 3.36));
+}

@@ -22,6 +22,18 @@ KLANG MANUAL
 ![[fig.1]](/KLANG/assets/function-overview.svg)
 </article>
 
+## Symbolic language
+
+<article class="symbols">
+![**Traverse**](/KLANG/assets/symbol-traverse.svg)
+
+![**Direction**](/KLANG/assets/symbol-direction.svg)
+
+![**Reset**](/KLANG/assets/symbol-reset.svg)
+
+![**Transpose**](/KLANG/assets/symbol-transpose.svg)
+</article>
+
 ## Specifications
 
 ### Electrical
