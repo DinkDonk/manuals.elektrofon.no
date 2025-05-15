@@ -16,7 +16,12 @@ body {
 	background-color: white;
 	font-family: 'Booton';
 	font-size: 16px;
-	margin: 1rem;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	padding: 2rem;
 }
 
 h1 {
@@ -99,7 +104,6 @@ table {
 	border-color: black;
 	box-sizing: content-box;
 	border-collapse: collapse;
-	padding: 0.5rem;
 }
 
 th,
@@ -232,4 +236,22 @@ ol li {
 
 .icon.last img {
 	height: calc(0.5rem * 3.36);
+}
+
+@media (max-width: 600px) {
+	main {
+		max-width: 100%;
+	}
+
+	article {
+		grid-template-columns: 1fr;
+	}
+
+	.overview-list {
+		order: 1;
+	}
+
+	table {
+		max-width: 100%;
+	}
 }
