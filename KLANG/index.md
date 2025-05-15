@@ -45,12 +45,12 @@ KLANG MANUAL
 |   **5V** | —                    |
 
 ### Inputs
-| Input | Type    | Voltage range | On/off state |
-|:------|:--------|--------------:|-------------:|
-| **⇥** | Trigger | 0V to 10V     | >1V / <1V    |
-| **↤↦**| CV      | -5V to 5V     | —            |
-| **⇤** | Trigger | 0V to 10V     | >1V / <1V    |
-| **⟳** | CV      | -5V to 5V     | —            |
+| Input                                                                      | Type    | Voltage&nbsp;range | On/off&nbsp;state |
+|:---------------------------------------------------------------------------|:--------|--------------:|-------------:|
+| <span class="icon">![Traverse](/KLANG/assets/symbol-traverse.svg)</span>   | Trigger | 0V to 10V     | >1V / <1V    |
+| <span class="icon">![Direction](/KLANG/assets/symbol-direction.svg)</span> | CV      | -5V to 5V     | —            |
+| <span class="icon">![Reset](/KLANG/assets/symbol-reset.svg)</span>         | Trigger | 0V to 10V     | >1V / <1V    |
+| <span class="icon last">![Transpose](/KLANG/assets/symbol-transpose.svg)</span> | CV      | -5V to 5V     | —            |
 
 ### Outputs
 | Output  | Voltage range  |
