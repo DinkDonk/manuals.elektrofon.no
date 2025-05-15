@@ -238,6 +238,12 @@ ol li {
 	height: calc(0.5rem * 3.36);
 }
 
+hr {
+	/* display: none; */
+	page-break-before: always;
+	break-before: page;
+}
+
 @media (max-width: 600px) {
 	main {
 		max-width: 100%;
@@ -249,6 +255,16 @@ ol li {
 
 	.overview-list {
 		order: 1;
+	}
+
+	table {
+		max-width: 100%;
+	}
+}
+
+@media print {
+	hr {
+		visibility: hidden;
 	}
 
 	table {

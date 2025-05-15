@@ -1,6 +1,8 @@
 KLANG MANUAL
 ============
 
+---
+
 ## Overview
 
 <article>
@@ -19,20 +21,24 @@ KLANG MANUAL
 9. **Outputs**: These are the bipolar CV outputs — One for each voice. They are laboratory grade 1V/octave outputs.
 </div>
 
-![[fig.1]](/KLANG/assets/function-overview.svg)
+![[fig.1]](../KLANG/assets/function-overview.svg)
 </article>
+
+---
 
 ## Symbolic language
 
 <article class="symbols">
-![**Traverse**](/KLANG/assets/symbol-traverse.svg)
+![**Traverse**](../KLANG/assets/symbol-traverse.svg)
 
-![**Direction**](/KLANG/assets/symbol-direction.svg)
+![**Direction**](../KLANG/assets/symbol-direction.svg)
 
-![**Reset**](/KLANG/assets/symbol-reset.svg)
+![**Reset**](../KLANG/assets/symbol-reset.svg)
 
-![**Transpose**](/KLANG/assets/symbol-transpose.svg)
+![**Transpose**](../KLANG/assets/symbol-transpose.svg)
 </article>
+
+---
 
 ## Specifications
 
@@ -47,10 +53,10 @@ KLANG MANUAL
 ### Inputs
 | Input                                                                      | Type    | Voltage&nbsp;range | On/off&nbsp;state |
 |:---------------------------------------------------------------------------|:--------|--------------:|-------------:|
-| <span class="icon">![Traverse](/KLANG/assets/symbol-traverse.svg)</span>   | Trigger | 0V to 10V     | >1V / <1V    |
-| <span class="icon">![Direction](/KLANG/assets/symbol-direction.svg)</span> | CV      | -5V to 5V     | —            |
-| <span class="icon">![Reset](/KLANG/assets/symbol-reset.svg)</span>         | Trigger | 0V to 10V     | >1V / <1V    |
-| <span class="icon last">![Transpose](/KLANG/assets/symbol-transpose.svg)</span> | CV      | -5V to 5V     | —            |
+| <span class="icon">![Traverse](../KLANG/assets/symbol-traverse.svg)</span>   | Trigger | 0V to 10V     | >1V / <1V    |
+| <span class="icon">![Direction](../KLANG/assets/symbol-direction.svg)</span> | CV      | -5V to 5V     | —            |
+| <span class="icon">![Reset](../KLANG/assets/symbol-reset.svg)</span>         | Trigger | 0V to 10V     | >1V / <1V    |
+| <span class="icon last">![Transpose](../KLANG/assets/symbol-transpose.svg)</span> | CV      | -5V to 5V     | —            |
 
 ### Outputs
 | Output  | Voltage range  |
@@ -60,6 +66,8 @@ KLANG MANUAL
 | **3**   | -5V to 5V      |
 | **4**   | -5V to 5V      |
 
+---
+
 ## Installation
 
 <article>
@@ -68,8 +76,10 @@ Plug the 10-pin connector into the module `POWER` socket (fig.2) and the 16-pin 
 2. Ensure the module is securely mounted in your case.
 3. Power on your case and play!
 
-![[fig.2]](/KLANG/assets/klang-back.svg)
+![[fig.2]](../KLANG/assets/klang-back.svg)
 </article>
+
+---
 
 ## Firmware upgrade
 
