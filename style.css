@@ -27,7 +27,6 @@ body {
 h1 {
 	font-size: 2.5rem;
 	text-transform: uppercase;
-	margin-bottom: 3rem;
 }
 
 h2 {
@@ -239,9 +238,9 @@ ol li {
 }
 
 hr {
-	/* display: none; */
 	page-break-before: always;
 	break-before: page;
+	margin: 2rem 0;
 }
 
 @media (max-width: 600px) {
@@ -265,6 +264,7 @@ hr {
 @media print {
 	hr {
 		visibility: hidden;
+		margin: 0;
 	}
 
 	table {
