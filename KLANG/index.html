@@ -5,7 +5,7 @@
     <meta name="date" content=''>
     <title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="/style.css?v=1">
   </head>
   <body>
   	  <main>
@@ -54,10 +54,10 @@ module does not respond to any triggers.</li>
 mode. This sets all voices to middle C as long as you press the encoder.
 Release to return to the current chord.</li>
 </ul></li>
-<li><strong>Minus button</strong>: Removes the current chord.</li>
-<li><strong>Plus button</strong>: Adds a new chord after the current
-chord. The new chord is a copy of the current chord. The active chord is
-set to the new chord.</li>
+<li><strong>Minus button</strong>: Removes the active chord. (1)</li>
+<li><strong>Plus button</strong>: Adds a new chord after the active
+chord. The new chord is a copy of the active chord. The newly created
+chord becomes the active chord.</li>
 <li><strong>Traverse trigger input</strong>: This trigger input is used
 to traverse the chord list. Without any CV input on the
 <strong>direction</strong> input, a trigger will move to the next chord
@@ -78,6 +78,8 @@ for quickly resetting the module to a known state.</li>
 <li><strong>Outputs</strong>: These are the bipolar CV outputs — One for
 each voice. They are laboratory grade 1V/octave outputs.</li>
 </ol>
+<p>(1) <code>Active chord</code> is the chord shown on the display at
+the moment of interaction.</p>
 </div>
 <figure>
 <img src="../KLANG/assets/function-overview.svg" alt="[fig.1]" />
@@ -141,8 +143,8 @@ each voice. They are laboratory grade 1V/octave outputs.</li>
 <tr>
 <th style="text-align: left;">Input</th>
 <th style="text-align: left;">Type</th>
-<th style="text-align: right;">Voltage range</th>
-<th style="text-align: right;">On/off state</th>
+<th style="text-align: right;">Voltage range</th>
+<th style="text-align: right;">On/off state</th>
 </tr>
 </thead>
 <tbody>

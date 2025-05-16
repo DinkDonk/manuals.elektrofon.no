@@ -12,12 +12,12 @@
 
 html,
 body {
-	display: grid;
 	background-color: white;
 	font-family: 'Booton';
 	font-size: 16px;
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 body {
@@ -96,12 +96,10 @@ figure img {
 }
 
 table {
-	width: 100%;
-	max-width: 50%;
+	width: 50%;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
-	box-sizing: content-box;
 	border-collapse: collapse;
 }
 
@@ -117,6 +115,7 @@ tr {
 
 td {
 	height: calc((0.5rem * 3.36) + 1rem);
+	white-space: nowrap;
 }
 
 thead tr {
@@ -169,6 +168,12 @@ ol li {
 	text-align: right;
 }
 
+.overview-list {
+	display: grid;
+	grid-template-rows: auto;
+	gap: 2rem;
+}
+
 .overview-list ol {
 	list-style: none;
 	counter-reset: overviewList;
@@ -214,6 +219,7 @@ ol li {
 
 .symbols img {
 	width: auto;
+	max-width: 100%;
 	height: min(2vw, 1rem);
 }
 
@@ -223,12 +229,12 @@ ol li {
 }
 
 .icon {
-	display: inline-block;
-	/* width: fit-content; */
+	display: block;
+	width: auto
 }
 
 .icon img {
-	display: inline-block;
+	display: block;
 	height: 0.5rem;
 	width: auto;
 }
@@ -249,6 +255,7 @@ hr {
 	}
 
 	article {
+		max-width: 100%;
 		grid-template-columns: 1fr;
 	}
 
@@ -257,7 +264,8 @@ hr {
 	}
 
 	table {
-		max-width: 100%;
+		width: 100%;
+		max-width: initial;
 	}
 }
 
@@ -268,6 +276,6 @@ hr {
 	}
 
 	table {
-		max-width: 100%;
+		width: 100%;
 	}
 }

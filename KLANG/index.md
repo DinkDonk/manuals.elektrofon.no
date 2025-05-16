@@ -12,13 +12,16 @@ KLANG MANUAL
 2. **Browse encoder**: Use this encoder to browse the current chords. The numbers at the bottom of the display shows the active chord index and the total chord count currently in memory.
     - **Click**: Click to toggle pause. When paused, the module does not respond to any triggers.
     - **Press and hold**: Press and hold to enter tuning mode. This sets all voices to middle C as long as you press the encoder. Release to return to the current chord.
-3. **Minus button**: Removes the current chord.
-4. **Plus button**: Adds a new chord after the current chord. The new chord is a copy of the current chord. The active chord is set to the new chord.
+3. **Minus button**: Removes the active chord. (1)
+4. **Plus button**: Adds a new chord after the active chord. The new chord is a copy of the active chord. The newly created chord becomes the active chord.
 5. **Traverse trigger input**: This trigger input is used to traverse the chord list. Without any CV input on the **direction** input, a trigger will move to the next chord (+1).
 6. **Direction input**: This input is used to set the traverse direction and amount. A negative voltage will result in backwards traverse, a positive voltage will result in forwards traverse. The **direction** input only sets the direction and amount — It does not perform a traversal. The chord changes only when a trigger is received on the **traverse** input. 0V will result in no movement.
 7. **Transpose input**: This input is used to transpose the current chord. A negative voltage will transpose down, a positive voltage will transpose up. 0V will result in no transposition.
 8. **Reset trigger input**: This trigger input immediately resets the current chord to the first chord in the list. This is useful for quickly resetting the module to a known state. 
 9. **Outputs**: These are the bipolar CV outputs — One for each voice. They are laboratory grade 1V/octave outputs.
+
+
+\(1\) `Active chord` is the chord shown on the display at the moment of interaction.
 </div>
 
 ![[fig.1]](../KLANG/assets/function-overview.svg)
@@ -51,7 +54,7 @@ KLANG MANUAL
 |   **5V** | —                    |
 
 ### Inputs
-| Input                                                                             | Type    | Voltage&nbsp;range | On/off&nbsp;state |
+| Input                                                                             | Type    | Voltage range | On/off state |
 |:----------------------------------------------------------------------------------|:--------|--------------:|-------------:|
 | <span class="icon">![Traverse](../KLANG/assets/symbol-traverse.svg)</span>        | Trigger | 0V to 10V     | >1V / <1V    |
 | <span class="icon">![Direction](../KLANG/assets/symbol-direction.svg)</span>      | CV      | -5V to 5V     | —            |
