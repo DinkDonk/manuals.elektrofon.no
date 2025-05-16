@@ -49,25 +49,25 @@ KLANG MANUAL
 
 | Rail     | Typical Current draw |
 |:---------|---------------------:|
-|  **12V** | ~23mA                |
-| **-12V** | <2mA                 |
-|   **5V** | —                    |
+|  **12V** |                ~23mA |
+| **-12V** |                 <2mA |
+|   **5V** |                    — |
 
 ### Inputs
 | Input                                                                             | Type    | Voltage range | On/off state |
 |:----------------------------------------------------------------------------------|:--------|--------------:|-------------:|
-| <span class="icon">![Traverse](../KLANG/assets/symbol-traverse.svg)</span>        | Trigger | 0V to 10V     | >1V / <1V    |
-| <span class="icon">![Direction](../KLANG/assets/symbol-direction.svg)</span>      | CV      | -5V to 5V     | —            |
-| <span class="icon">![Reset](../KLANG/assets/symbol-reset.svg)</span>              | Trigger | 0V to 10V     | >1V / <1V    |
-| <span class="icon last">![Transpose](../KLANG/assets/symbol-transpose.svg)</span> | CV      | -5V to 5V     | —            |
+| <span class="icon">![Traverse](../KLANG/assets/symbol-traverse.svg)</span>        | Trigger |     0V to 10V |    >1V / <1V |
+| <span class="icon">![Direction](../KLANG/assets/symbol-direction.svg)</span>      | CV      |     -5V to 5V |            — |
+| <span class="icon">![Reset](../KLANG/assets/symbol-reset.svg)</span>              | Trigger |     0V to 10V |    >1V / <1V |
+| <span class="icon last">![Transpose](../KLANG/assets/symbol-transpose.svg)</span> | CV      |     -5V to 5V |            — |
 
 ### Outputs
 | Output  | Voltage range  |
 |:--------|---------------:|
-| **1**   | -5V to 5V      |
-| **2**   | -5V to 5V      |
-| **3**   | -5V to 5V      |
-| **4**   | -5V to 5V      |
+| **1**   |      -5V to 5V |
+| **2**   |      -5V to 5V |
+| **3**   |      -5V to 5V |
+| **4**   |      -5V to 5V |
 
 ---
 
