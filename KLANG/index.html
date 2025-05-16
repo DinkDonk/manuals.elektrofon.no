@@ -230,7 +230,8 @@ Plug the 10-pin connector into the module <code>POWER</code> socket
 <ol type="1">
 <li>Download <a
 href="https://github.com/elektrofon/klang-firmware/releases/latest">the
-latest firmware</a>.</li>
+latest firmware</a> <span class="firmware-version"></span> (<span
+class="firmware-date"></span>).</li>
 <li>Put the <code>elektrofon-klang.bin</code> file on a microSD card.
 (1)</li>
 <li>Unmount the module from your case.</li>
@@ -253,5 +254,26 @@ the firmware file. The SD Card can be corrupted or the firmware file
 might be missing. Corrupted SD Cards are more common than you think.</p>
 		  </section>
 	  </main>
+
+	  <script>
+		  async function init() {
+			  const url = 'https://api.github.com/repos/elektrofon/klang-firmware/releases/latest';
+			  const release = await fetch(url).then(_ => _.json());
+			  const tagName = release.tag_name;
+			  const publishedAt = new Date(release.published_at);
+			  console.log(tagName, publishedAt);
+
+			  const firmwareVersionElement = document.querySelector('.firmware-version');
+			  const firmwareDateElement = document.querySelector('.firmware-date');
+			  firmwareVersionElement.innerHTML = tagName;
+			  firmwareDateElement.innerHTML = publishedAt.toLocaleDateString('en-GB', {
+				  day: '2-digit',
+				  month: '2-digit',
+				  year: '2-digit'
+			  });
+		  }
+
+		  init();
+	  </script>
   </body>
 </html>
