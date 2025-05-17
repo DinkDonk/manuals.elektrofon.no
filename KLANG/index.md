@@ -45,7 +45,7 @@ KLANG MANUAL
 
 ## Setting display brightness
 
-To set the display brightness, press and hold the **browse** encoder to enter tuning mode. While holding the encoder, turn the yellow voice encoder. Turn clockwise to increase brightness and counter-clockwise to decrease brightness.
+To set the display brightness, press and hold the **browse encoder** to enter tuning mode. While in tuning mode, turn the **yellow voice encoder**. Turn clockwise to increase brightness and counter-clockwise to decrease brightness.
 
 ---
 
