@@ -3,6 +3,20 @@ KLANG MANUAL
 
 ---
 
+## Symbolic language
+
+<article class="symbols">
+![**Traverse**](../KLANG/assets/symbol-traverse.svg)
+
+![**Direction**](../KLANG/assets/symbol-direction.svg)
+
+![**Reset**](../KLANG/assets/symbol-reset.svg)
+
+![**Transpose**](../KLANG/assets/symbol-transpose.svg)
+</article>
+
+---
+
 ## Overview
 
 <article>
@@ -29,17 +43,9 @@ KLANG MANUAL
 
 ---
 
-## Symbolic language
+## Setting display brightness
 
-<article class="symbols">
-![**Traverse**](../KLANG/assets/symbol-traverse.svg)
-
-![**Direction**](../KLANG/assets/symbol-direction.svg)
-
-![**Reset**](../KLANG/assets/symbol-reset.svg)
-
-![**Transpose**](../KLANG/assets/symbol-transpose.svg)
-</article>
+To set the display brightness, press and hold the **browse** encoder to enter tuning mode. While holding the encoder, turn the yellow voice encoder. Turn clockwise to increase brightness and counter-clockwise to decrease brightness.
 
 ---
 
