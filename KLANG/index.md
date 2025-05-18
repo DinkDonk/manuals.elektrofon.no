@@ -53,11 +53,13 @@ To set the display brightness, press and hold the **browse encoder** to enter tu
 
 ### Electrical
 
-| Rail     | Typical Current draw |
-|:---------|---------------------:|
-|  **12V** |                ~23mA |
-| **-12V** |                 <2mA |
-|   **5V** |                    — |
+| Rail     | Typical Current draw     |
+|:---------|-------------------------:|
+|  **12V** |                ~23mA (1) |
+| **-12V** |                     <2mA |
+|   **5V** |                        — |
+
+\(1\) At normal operation with default display brightness.
 
 ### Inputs
 | Input                                                                             | Type    | Voltage range | On/off state |
