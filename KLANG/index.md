@@ -49,6 +49,28 @@ To set the display brightness, press and hold the **browse encoder** to enter tu
 
 ---
 
+## Modes of operation
+
+KLANG has three modes of operation:
+
+1. **Normal mode**: This is the default mode of operation. The module responds to triggers and CV inputs as described in the overview.
+2. **Absolute indexing mode**: In this mode, the **direction input** is used to set the absolute index in the chord sequence. The module will respond in real-time to the **direction input**. The **traverse input** is ignored in this mode. The **direction input** can be set to a value between -5V and 5V, where -5V is chord index 0 and 5V is chord index 99. No matter how many chords you have in memory, the voltage applied will always be mapped to the same chord index.
+3. **Absolute indexing sample & hold**: In this mode, the **direction input** is used to set the absolute index in the chord sequence, but the module will only respond to the **direction input** when a trigger is received on the **traverse input**. This allows you to sample and hold the current chord index. The **direction input** can be set to a value between -5V and 5V, where -5V is chord index 0 and 5V is chord index 99. No matter how many chords you have in memory, the voltage applied will always be mapped to the same chord index.
+
+### Switching modes
+
+Switching modes can only be done at power on. To switch modes, follow these steps:
+
+1. Power off the module.
+2. Press and hold the yellow, blue or gray voice encoder.
+3. Power on the module while still holding the voice encoder.
+
+The yellow voice encoder will switch to **normal mode**, the blue voice encoder will switch to **absolute indexing mode**, and the gray voice encoder will switch to **absolute indexing sample & hold mode**.
+
+The module remembers the last used mode, so you only need to switch modes if you want to change the mode of operation.
+
+---
+
 ## Specifications
 
 ### Electrical

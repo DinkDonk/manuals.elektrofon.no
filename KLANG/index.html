@@ -18,6 +18,12 @@ language</a></li>
 <li><a href="#overview" id="toc-overview">Overview</a></li>
 <li><a href="#setting-display-brightness"
 id="toc-setting-display-brightness">Setting display brightness</a></li>
+<li><a href="#modes-of-operation" id="toc-modes-of-operation">Modes of
+operation</a>
+<ul>
+<li><a href="#switching-modes" id="toc-switching-modes">Switching
+modes</a></li>
+</ul></li>
 <li><a href="#specifications" id="toc-specifications">Specifications</a>
 <ul>
 <li><a href="#electrical" id="toc-electrical">Electrical</a></li>
@@ -114,6 +120,45 @@ the moment of interaction.</p>
 encoder</strong> to enter tuning mode. While in tuning mode, turn the
 <strong>yellow voice encoder</strong>. Turn clockwise to increase
 brightness and counter-clockwise to decrease brightness.</p>
+<hr />
+<h2 id="modes-of-operation">Modes of operation</h2>
+<p>KLANG has three modes of operation:</p>
+<ol type="1">
+<li><strong>Normal mode</strong>: This is the default mode of operation.
+The module responds to triggers and CV inputs as described in the
+overview.</li>
+<li><strong>Absolute indexing mode</strong>: In this mode, the
+<strong>direction input</strong> is used to set the absolute index in
+the chord sequence. The module will respond in real-time to the
+<strong>direction input</strong>. The <strong>traverse input</strong> is
+ignored in this mode. The <strong>direction input</strong> can be set to
+a value between -5V and 5V, where -5V is chord index 0 and 5V is chord
+index 99. No matter how many chords you have in memory, the voltage
+applied will always be mapped to the same chord index.</li>
+<li><strong>Absolute indexing sample &amp; hold</strong>: In this mode,
+the <strong>direction input</strong> is used to set the absolute index
+in the chord sequence, but the module will only respond to the
+<strong>direction input</strong> when a trigger is received on the
+<strong>traverse input</strong>. This allows you to sample and hold the
+current chord index. The <strong>direction input</strong> can be set to
+a value between -5V and 5V, where -5V is chord index 0 and 5V is chord
+index 99. No matter how many chords you have in memory, the voltage
+applied will always be mapped to the same chord index.</li>
+</ol>
+<h3 id="switching-modes">Switching modes</h3>
+<p>Switching modes can only be done at power on. To switch modes, follow
+these steps:</p>
+<ol type="1">
+<li>Power off the module.</li>
+<li>Press and hold the yellow, blue or gray voice encoder.</li>
+<li>Power on the module while still holding the voice encoder.</li>
+</ol>
+<p>The yellow voice encoder will switch to <strong>normal mode</strong>,
+the blue voice encoder will switch to <strong>absolute indexing
+mode</strong>, and the gray voice encoder will switch to
+<strong>absolute indexing sample &amp; hold mode</strong>.</p>
+<p>The module remembers the last used mode, so you only need to switch
+modes if you want to change the mode of operation.</p>
 <hr />
 <h2 id="specifications">Specifications</h2>
 <h3 id="electrical">Electrical</h3>
